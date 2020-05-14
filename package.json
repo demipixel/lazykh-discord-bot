@@ -1,0 +1,23 @@
+{
+  "name": "lazykh-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "ts-node -r tsconfig-paths/register src/main.ts",
+    "lint": "tslint -p tsconfig.json -c tslint.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "config": "^3.3.1",
+    "discord.js": "^12.2.0",
+    "typeorm": "^0.2.24"
+  },
+  "devDependencies": {
+    "@types/config": "0.0.36",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.2"
+  }
+}
