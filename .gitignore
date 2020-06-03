@@ -16,9 +16,11 @@ lerna-debug.log*
 # Configs
 ormconfig.json
 config/default.json
+.env
 
 # IDE - VSCode
 .vscode/*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+images/*

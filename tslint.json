@@ -26,6 +26,14 @@
     "cyclomatic-complexity": [true, 10],
     "no-tautology-expression": true,
     "promise-function-async": true,
-    "no-console": false
+    "no-console": false,
+    "variable-name": {
+      "options": [
+        "ban-keywords",
+        "check-format",
+        "allow-snake-case",
+        "allow-pascal-case"
+      ]
+    }
   }
 }
