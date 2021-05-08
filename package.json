@@ -16,7 +16,7 @@
     "dotenv": "^8.2.0",
     "moment": "^2.25.3",
     "pg": "^8.2.0",
-    "typeorm": "^0.2.24"
+    "typeorm": "^0.2.25"
   },
   "devDependencies": {
     "@types/config": "0.0.36",
